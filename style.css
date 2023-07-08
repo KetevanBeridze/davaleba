@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    background-color: aqua;
+}
+#nav{
+background-color: blue;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+#nav ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+#nav li{
+    float: left;
+}
+#nav ul a{
+    display: block;
+    width: 9em;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
